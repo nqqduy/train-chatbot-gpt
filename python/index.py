@@ -2,7 +2,7 @@ from llama_index import SimpleDirectoryReader, GPTListIndex, readers, GPTSimpleV
 from langchain import OpenAI
 import sys
 import os
-os.environ["OPENAI_API_KEY"] = "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" 
+os.environ["OPENAI_API_KEY"] = "sk-" 
 def construct_index(directory_path):
     # set maximum input size
     max_input_size = 4096
